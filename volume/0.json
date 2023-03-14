@@ -1,0 +1,21 @@
+{
+  "id": 0,
+  "title": "Title",
+  "description": "Description",
+  "audio_file": "File.mp3",
+  "content": [
+    ["xx:xx", "chapters 1"],
+    ["xx:xx", "chapters 2"]
+  ],
+
+  "references": [
+    ["xx:xx", "Description 1", "Name 1", "Link 1"],
+    ["xx:xx", "Description 2", "Name 2", "Link 2"]
+  ],
+
+  "hosts": [
+    ["Name 1", "Website"],
+    ["Name 2", "Website"]
+  ],
+  "publish_timestrap": 0
+}
