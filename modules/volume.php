@@ -15,8 +15,8 @@ if(isset($_REQUEST['id'])) {
                 <h3><a>#<?php echo $json['id'] ?>: 「<?php echo $json['title'] ?>」</a></h3>
             </div>
             <br />
-            <audio controls preload="metadata" src="./audio/<?php echo $json['audio_file'] ?>" type="audio/mpeg"
-                class="audioPlayer"></audio>
+            <audio controls preload="metadata" src="./audio/<?php echo $json['audio_file'] ?>?t=<?php echo time()?>"
+                type="audio/mpeg" class="audioPlayer"></audio>
             <div class="post-content">
                 <p><?php echo $json['description'] ?></p>
                 <h4>主要内容：</h4>
